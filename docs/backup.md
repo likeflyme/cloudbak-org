@@ -1,13 +1,10 @@
 # 如何备份
 
 
-## 备用客户端链接
+## 客户端下载
 
-如果下载客户端失败，可以使用备份的下载地址：
+将PC端微信数据备份到服务器需要借助我们的客户端，目前支持的客户端仅为 Windows 客户端，[下载客户端](/download-desktop)。
 
-夸克：https://pan.quark.cn/s/0c0f6526a684
-
-七牛：https://static.raining.top/wechat-cloud-bak/coudbak-0.0.1.zip
 
 ## 备份
 

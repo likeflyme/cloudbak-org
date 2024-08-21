@@ -18,15 +18,31 @@ export default defineConfig({
           { text: '什么是云朵备份', link: '/explain-cloudbak' },
           { text: '如何安装', link: '/install-docker' },
           { text: '如何备份', link: '/backup' },
+          { text: '下载客户端', link: '/download-desktop' },
           { text: '隐私政策', link: '/privacy-policy' },
           { text: '免责声明', link: '/disclaimer' },
           { text: '关于我们', link: '/about' },
         ]
       }
-    ],
+    ]
+
 
     // socialLinks: [
     //   // { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     // ]
-  }
+  },
+  head: [
+    [
+      'script',
+      {
+        async: '',
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-8R186H4EQ6'
+      }
+    ],
+    [
+      'script',
+      {},
+      "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-8R186H4EQ6');"
+    ]
+  ]
 })
