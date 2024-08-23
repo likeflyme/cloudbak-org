@@ -1,8 +1,17 @@
 # 下载
 
-Windows 客户端下载：[cloudbak-desktop.0.0.1.zip](http://desktop.cloudbak.org/cloudbak-desktop.0.0.1.zip)
+Windows 客户端下载：[cloudbak-desktop.0.0.2.zip](http://desktop.cloudbak.org/cloudbak-desktop.0.0.2.zip)
 
 ## 版本日志
+
+### 0.0.2
+
+2024年8月23日
+
+Windows: [cloudbak-desktop.0.0.2.zip](http://desktop.cloudbak.org/cloudbak-desktop.0.0.2.zip)
+
+* 日志
+
 
 ### 0.0.1
 
