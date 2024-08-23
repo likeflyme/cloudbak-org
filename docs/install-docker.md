@@ -2,6 +2,8 @@
 
 云朵备份并不提供源码，目前支持 Docker 安装，如果您不了解什么是 Docker，您可以先简单了解一下基本操作。
 
+如果只想安装在 Windows 系统中，可以通过 [Docker Desktop](https://www.docker.com/products/docker-desktop/) 安装云朵备份
+
 ## Docker 安装
 
 执行以下命令安装。
