@@ -15,6 +15,23 @@ docker run --name=cloudbak --restart=always -d \
     likeflyme/cloudbak
 ```
 
+国内环境由于网络关系的原因可以替换为以下地址，感谢 [@xiaoz](https://blog.xiaoz.org/)：
+```shell
+docker run --name=cloudbak --restart=always -d \
+    -p 9527:9527 \
+    -v /app/data:/app/data \
+    pub.tcp.mk/likeflyme/cloudbak
+```
+
+这里顺便也提供Windows安装方法，首先安装 [Docker Desktop](https://www.docker.com/products/docker-desktop/)，
+启动后打开 CMD 执行 上面的 Docker 命令，把 `-v /app/data:/app/data` 替换一下，前面的 `/app/data` 替换为 Windows 路径，示例如下：
+```shell
+docker run --name=cloudbak --restart=always -d \
+    -p 9527:9527 \
+    -v d:/data/cloudbak:/app/data \
+    pub.tcp.mk/likeflyme/cloudbak
+```
+
 启动完成后访问 http://ip:9527 ，输入用户名、邮箱和密码完成安装。
 
 第一次登录由于没有上传数据，所以会提示您下载 Windows 同步客户端进行数据备份，下载后解压执行exe文件后登录，完成备份后再次刷新
