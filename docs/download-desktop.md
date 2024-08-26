@@ -1,8 +1,16 @@
 # 下载
 
-Windows 客户端下载：[cloudbak-desktop.0.0.3.zip](http://desktop.cloudbak.org/cloudbak-desktop.0.0.3.zip)
+Windows 客户端下载：[cloudbak-desktop.0.0.4.zip](http://desktop.cloudbak.org/cloudbak-desktop.0.0.4.zip)
 
 ## 版本日志
+
+### 0.0.4
+
+2024年8月26日
+
+Windows: [cloudbak-desktop.0.0.4.zip](http://desktop.cloudbak.org/cloudbak-desktop.0.0.4.zip)
+
+* 优化同步时可能造成界面卡死的问题
 
 ### 0.0.3
 

@@ -18,6 +18,7 @@ export default defineConfig({
           { text: '什么是云朵备份', link: '/explain-cloudbak' },
           { text: '如何安装', link: '/install-docker' },
           { text: '如何备份', link: '/backup' },
+          { text: '更新日志', link: '/changelog' },
           { text: '下载客户端', link: '/download-desktop' },
           { text: '隐私政策', link: '/privacy-policy' },
           { text: '免责声明', link: '/disclaimer' },
