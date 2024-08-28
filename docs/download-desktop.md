@@ -1,8 +1,18 @@
 # 下载
 
-Windows 客户端下载：[cloudbak-desktop.0.0.4.zip](http://desktop.cloudbak.org/cloudbak-desktop.0.0.4.zip)
+Windows 客户端下载：[cloudbak-desktop.0.1.0.zip](http://desktop.cloudbak.org/cloudbak-desktop.0.1.0.zip)
 
 ## 版本日志
+
+### 0.1.0
+
+2024年8月26日
+
+Windows: [cloudbak-desktop.0.1.0.zip](http://desktop.cloudbak.org/cloudbak-desktop.0.1.0.zip)
+
+同步优化
+* 增量同步使用修改时间判断替代hash函数，极大提高增量同步速度
+* 需配合docker镜像版本为 0.1.0-preview 以上使用，或直接使用 latest 版本
 
 ### 0.0.4
 

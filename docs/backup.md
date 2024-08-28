@@ -21,6 +21,15 @@
 这里的 session 可以关联一个微信，这样就实现了一个账号可以同步多个微信账户，也可以多个 session 都同步一个微信账户（这在一些情况下是必要的，比如换了电脑，账号数据丢失了需要新建立一个 session 同步新的数据）。
 添加 session 时需要微信为登录状态，用于检测微信的数据位置以及其他数据，session 名字随便取，备注选填 session 名必填。 
 
+**重要：当遇到版本号不支持！！！**
+
+如果检测到版本不支持，需要修改软件根目录的 version.json，否则跳过直接看第三步。
+version.json 包含获取用户信息的基址（用户名，昵称，手机号，邮箱-已废弃，KEY），提供两种方法获取，当第一种没有满足的版本时，可以通过第二种方式自己尝试获取。
+
+* 第一种：[点击这里获取](https://github.com/xaoyaoo/PyWxDump/blob/master/pywxdump/WX_OFFS.json)
+* 第二种：[通过CE获取](https://github.com/xaoyaoo/PyWxDump/blob/master/doc/CE%E8%8E%B7%E5%8F%96%E5%9F%BA%E5%9D%80.md)
+
+
 ![add_session](https://static.raining.top/wechat-cloud-bak/org-website/add-session.png){.centered-image}
 
 
