@@ -12,6 +12,7 @@ Windows: [cloudbak-desktop.0.1.0.zip](http://desktop.cloudbak.org/cloudbak-deskt
 
 同步优化
 * 增量同步使用修改时间判断替代hash函数，极大提高增量同步速度
+* 支持微信运行时同步（但微信运行时的数据不会同步，原因是数据驻留在内存，退出后写入数据库）
 * 需配合docker镜像版本为 0.1.0-preview 以上使用，或直接使用 latest 版本
 
 ### 0.0.4

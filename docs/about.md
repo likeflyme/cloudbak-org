@@ -8,3 +8,15 @@
 
 * 邮箱： likeflyme@gmail.com
 * QQ群： 993046283
+
+## 资助我
+
+目前云朵备份为免费模式，如果您觉得好用，可以请我喝一杯咖啡。
+
+**微信**
+
+![wechat](https://static.raining.top/wechat-cloud-bak/org-website/pay_wechat.png) 
+
+**支付宝**
+
+![wechat](https://static.raining.top/wechat-cloud-bak/org-website/pay_alipay.png)
