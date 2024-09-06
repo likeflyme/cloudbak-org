@@ -20,6 +20,7 @@ export default defineConfig({
           { text: '如何备份', link: '/backup' },
           { text: '更新日志', link: '/changelog' },
           { text: '下载客户端', link: '/download-desktop' },
+          { text: '使用截图', link: '/use-case' },
           { text: '隐私政策', link: '/privacy-policy' },
           { text: '免责声明', link: '/disclaimer' },
           { text: '关于我们', link: '/about' },
