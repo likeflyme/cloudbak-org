@@ -21,6 +21,7 @@ export default defineConfig({
           { text: '更新日志', link: '/changelog' },
           { text: '下载客户端', link: '/download-desktop' },
           { text: '使用截图', link: '/use-case' },
+          { text: '问题排查', link: '/questions' },
           { text: '隐私政策', link: '/privacy-policy' },
           { text: '免责声明', link: '/disclaimer' },
           { text: '关于我们', link: '/about' },
