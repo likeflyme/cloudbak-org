@@ -29,4 +29,6 @@
 
 经使用飞牛NAS的用户测试，需要将高级设置中的命令删除才能正常启动。
 
+![删除命令](https://static.raining.top/wechat-cloud-bak/org-website/feiniunas.png)
+
 
