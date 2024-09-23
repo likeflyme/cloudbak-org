@@ -1,6 +1,6 @@
 # 下载
 
-Windows 客户端下载：[cloudbak-desktop.0.1.0.zip](https://pan.quark.cn/s/e8aaba953a90)
+Windows 客户端下载：[cloudbak-desktop.0.1.0.zip](https://wwij.lanzout.com/imkw02ant6ri)
 
 ## 版本日志
 
@@ -8,7 +8,7 @@ Windows 客户端下载：[cloudbak-desktop.0.1.0.zip](https://pan.quark.cn/s/e8
 
 2024年8月26日
 
-Windows: [cloudbak-desktop.0.1.0.zip](https://pan.quark.cn/s/e8aaba953a90)
+Windows: [cloudbak-desktop.0.1.0.zip](https://wwij.lanzout.com/imkw02ant6ri)
 
 同步优化
 * 增量同步使用修改时间判断替代hash函数，极大提高增量同步速度

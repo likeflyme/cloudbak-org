@@ -31,4 +31,8 @@
 
 ![删除命令](https://static.raining.top/wechat-cloud-bak/org-website/feiniunas.png)
 
+## 客户端 Request failed with status code Forbidden
+
+客户端点击退出后重新登录。
+
 
