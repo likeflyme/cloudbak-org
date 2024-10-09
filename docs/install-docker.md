@@ -32,7 +32,12 @@ docker run --name=cloudbak --restart=always -d \
     pub.tcp.mk/likeflyme/cloudbak
 ```
 
-启动完成后访问 http://ip:9527 ，输入用户名、邮箱和密码完成安装。
+## 运行
+
+启动完成后访问 http://ip:9527 ，输入用户名、邮箱和密码完成安装（邮箱暂时没有任何用途）。
+
+![install](https://static.raining.top/wechat-cloud-bak/org-website/install.png){.centered-image}
+
 
 第一次登录由于没有上传数据，所以会提示您下载 Windows 同步客户端进行数据备份，下载后解压执行exe文件后登录，完成备份后再次刷新
 即可。
