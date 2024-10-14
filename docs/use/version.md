@@ -4,6 +4,8 @@
 使用方式为：云朵客户端检测到版本不支持，需要修改客户端软件根目录的 version.json，可以直接复制全部内容覆盖version.json，
 也可以只复制单个版本数据到 version.json，注意修改后的格式是否正确。
 
+version.json 中每个版本包含获取用户信息的基址（用户名，昵称，手机号，邮箱-已废弃，KEY）。
+
 如果以下数据没有你的版本信息，可以参考：
 
 * 第一种：[点击这里获取](https://github.com/xaoyaoo/PyWxDump/blob/master/pywxdump/WX_OFFS.json)

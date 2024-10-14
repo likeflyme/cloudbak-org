@@ -39,7 +39,11 @@ version.json 包含获取用户信息的基址（用户名，昵称，手机号�
 
 **微信KEY（重要）**
 
-云朵备份会通过这个KEY解析聊天文件的数据，Windows用户可以通过云朵备份Windows客户端创建会话，也会在将来推出一个只获取 KEY 的程序，
+云朵备份会通过这个KEY解析聊天文件的数据。
+Windows用户可以通过云朵备份Windows客户端创建会话，也可以下载 [cloudbak-key](https://wwij.lanzout.com/iDXOX2chwsvi) 单独获取，cloudbak-key中输入的地址查看 [version](/use/version) 章节，拷贝对应版本的最后一个值，
+
+如 3.9.12.17 版本的值为：93836256
+
 macOS用户目前需要自己找方法获取这个KEY。
 
 **微信id（重要）**
