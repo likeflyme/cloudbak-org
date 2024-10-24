@@ -37,9 +37,7 @@
 
 ## 总是解析失败或出现 database disk image is malformed
 
-下版本修复。
-
-目前的解决方法是：`数据目录/sessions/id/微信/Msg` 下有一些 `decoded_` 开头的文件，删除这些文件后手动重新解析即可。
+解决方法是：`数据目录/sessions/id/微信/Msg` 下有一些 `decoded_` 开头的文件，删除这些文件后手动重新解析或重启即可。
 
 如果在点击消息时出现 database disk image is malformed 错误，删除`数据目录/sessions/id/微信/Msg/Multi` 下的 `decoded_` 开头的文件。
 
