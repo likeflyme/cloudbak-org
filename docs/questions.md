@@ -4,6 +4,8 @@
 
 邮件：likeflyme@gmail.com
 
+注意：163发送的邮件可能收不到，如果超过一两天没有回复可以在 Q 群中 @我
+
 ## 日志在哪里
 
 客户端日志：exe 文件同级 Log 目录
@@ -37,8 +39,8 @@
 
 ## 总是解析失败或出现 database disk image is malformed
 
-解决方法是：`数据目录/sessions/id/微信/Msg` 下有一些 `decoded_` 开头的文件，删除这些文件后手动重新解析或重启即可。
+解决方法是：`数据目录/sessions/id/微信/Msg` 下有一些 `decoded_` 开头并且以`.db-wal` 和 `.db-shm` 结尾的文件，删除这些文件后手动重新解析或重启即可。
 
-如果在点击消息时出现 database disk image is malformed 错误，删除`数据目录/sessions/id/微信/Msg/Multi` 下的 `decoded_` 开头的文件。
+如果在点击消息时出现 database disk image is malformed 错误，删除`数据目录/sessions/id/微信/Msg/Multi` 下类似的文件。
 
 
