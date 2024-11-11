@@ -8,13 +8,21 @@ export default defineConfig({
       { text: '主页', link: '/' },
       { text: '文档', link: '/explain-cloudbak' }
     ],
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/likeflyme/cloudbak' },
+    ],
 
     sidebar: [
       {
         text: '文档',
         items: [
           { text: '什么是云朵备份', link: '/explain-cloudbak' },
-          { text: '安装', link: '/install-docker'},
+          { text: '安装',
+            items: [
+              { text: '源码安装', link: '/install/install-source'},
+              { text: 'docker安装', link: '/install/install-docker'},
+            ],
+          },
           {
             text: '开始使用',
             items: [
