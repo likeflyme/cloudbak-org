@@ -6,7 +6,8 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: '主页', link: '/' },
-      { text: '文档', link: '/explain-cloudbak' }
+      { text: '文档', link: '/explain-cloudbak' },
+      { text: 'Zdir', link: 'https://www.zdir.pro/zh/', target: '_blank'}
     ],
     socialLinks: [
       { icon: 'github', link: 'https://github.com/likeflyme/cloudbak' },
