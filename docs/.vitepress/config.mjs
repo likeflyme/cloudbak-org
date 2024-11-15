@@ -4,6 +4,7 @@ export default defineConfig({
   title: "云朵备份",
   description: "微信备份，微信云备份，备份，工具",
   themeConfig: {
+    logo: "/logo/logo.svg",
     nav: [
       { text: '主页', link: '/' },
       { text: '文档', link: '/explain-cloudbak' },
@@ -56,6 +57,7 @@ export default defineConfig({
 
   },
   head: [
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
     [
       'script',
       {
