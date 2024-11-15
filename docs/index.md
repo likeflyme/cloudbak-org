@@ -12,7 +12,7 @@ hero:
       link: /explain-cloudbak
     - theme: alt
       text: 安装教程
-      link: /install-docker
+      link: /install/install-docker
 
 features:
   - title: 安全
