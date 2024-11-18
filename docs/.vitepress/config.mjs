@@ -23,6 +23,7 @@ export default defineConfig({
             items: [
               { text: '源码安装', link: '/install/install-source'},
               { text: 'docker安装', link: '/install/install-docker'},
+              { text: '在宝塔9.2安装', link: '/install/install-bt'},
             ],
           },
           {
